@@ -8,5 +8,5 @@ console.log('Hello, world!');
 
 ```
 $ node hello-world.js
-// => Hello, world!
+=> Hello, world!
 ```

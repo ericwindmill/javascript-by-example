@@ -58,6 +58,9 @@ const BodyContainer = styled.div`
       padding: 0;
       list-style-type: none
     }
+    h1 {
+      font-weight: 400;
+    }
 `
 
 export const pageQuery = graphql`

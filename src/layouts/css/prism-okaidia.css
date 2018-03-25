@@ -9,7 +9,6 @@ code[class*="language-"],
 pre[class*="language-"] {
 	color: #3b3b3b;
 	background: none;
-	text-shadow: 0 1px white;
 	text-align: left;
 	white-space: pre;
 	word-spacing: normal;
@@ -38,7 +37,7 @@ pre[class*="language-"] {
 
 :not(pre) > code[class*="language-"],
 pre[class*="language-"] {
-	background: #ecebf0;
+	background: #f9f9f9;
 }
 
 /* Inline code */
