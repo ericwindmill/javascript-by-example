@@ -1,0 +1,107 @@
+/*
+blue: #2973B7
+green: #42B983
+pink: #E95E8D
+ink: #525252
+*/
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #3b3b3b;
+	background: none;
+	text-shadow: 0 1px white;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5 !important;
+	font-size: 16px !important;
+	font-family: 'Fira Code', Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #fcf6f0;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.property,
+.token.tag,
+.token.boolean,
+.token.number,
+.token.constant,
+.token.symbol,
+.token.deleted,
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.punctuation {
+	color: #3b3b3b;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #bab6b1;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted,
+.token.regex,
+.token.important,
+.token.variable {
+	color: #42b983;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.keyword {
+	color: #2973b7;
+}
+
+.token.function {
+	color: #e95e8d;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}

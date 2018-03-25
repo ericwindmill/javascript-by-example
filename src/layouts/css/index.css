@@ -1,0 +1,13 @@
+html,
+body {
+	font-family: Georgia, serif;
+}
+
+a > p {
+	color: black;
+	margin: 0;
+}
+
+a:visited > p {
+	color: grey;
+}

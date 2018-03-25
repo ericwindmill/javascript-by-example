@@ -1,0 +1,12 @@
+{
+  "id": "table-of-contents",
+  "coolness": "very-cool",
+  "chapters": [
+    {"post": "./lesson_one.md"},
+    {"post": "./lesson_two.md"},
+    {"post": "./lesson_three.md"},
+    {"post": "./lesson_four.md"},
+    {"post": "./lesson_five.md"},
+    {"post": "./lesson_six.md"}
+  ]
+}
