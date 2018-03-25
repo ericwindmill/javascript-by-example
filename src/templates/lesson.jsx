@@ -1,5 +1,6 @@
 import React from "react"
 import Helmet from "react-helmet"
+import Link from "gatsby-link"
 import styled from "styled-components"
 
 import SEO from "../components/SEO"
@@ -27,6 +28,7 @@ export default class LessonTemplate extends React.Component {
             {post.title}
           </h1>
           <div dangerouslySetInnerHTML={{__html: postNode.html}}/>
+          <Link to={'/'}>Back to main</Link>
         </BodyContainer>
       </div>
     );
@@ -59,22 +61,6 @@ export const pageQuery = graphql`
         date
         category
         tags
-      }
-    }
-    tableOfContents: lessonsJson {
-      coolness
-      chapters {
-        post {
-          id
-          childMarkdownRemark {
-            fields {
-              slug
-            }
-            frontmatter {
-              title
-            }
-          }
-        }
       }
     }
   }

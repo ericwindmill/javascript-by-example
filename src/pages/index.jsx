@@ -10,7 +10,7 @@ import Footer from "../components/Footer";
 class Index extends React.Component {
 
   render() {
-    const lessons = this.props.data.tableOfContents.chapters
+    const lessons = this.props.data.lessonsJson.chapters
     return (
       <div className="index-container">
         <Helmet title={config.siteTitle}/>
@@ -31,9 +31,9 @@ class Index extends React.Component {
             </p>
             <p>
               {' '}
-              Inspired by <a href="https://gobyexample">Go By Example</a>,{' '}
-              <a href="https://haskellbyexample.com">Haskell By Example</a>, and{' '}
-              <a href="https://github.io/jpryan/dart-by-example">
+              Inspired by <a href="https://gobyexample.com">Go By Example</a>,{' '}
+              <a href="https://lotz84.github.io/haskellbyexample/">Haskell By Example</a>, and{' '}
+              <a href="http://jpryan.me/dartbyexample/">
                 Dart By Example
               </a>.
             </p>
@@ -61,16 +61,16 @@ const BodyContainer = styled.div`
 `
 
 export const pageQuery = graphql`
-  query LessonBySlug {
-    tableOfContents: lessonsJson {
-      chapters {
+  query MainQuery {
+    lessonsJson{
+      chapters{
         post {
           id
-          childMarkdownRemark {
-            fields {
+          childMarkdownRemark{
+            fields{
               slug
             }
-            frontmatter {
+            frontmatter{
               title
             }
           }
