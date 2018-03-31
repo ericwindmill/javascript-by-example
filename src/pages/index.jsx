@@ -67,7 +67,7 @@ export const pageQuery = graphql`
   query MainQuery {
     lessonsJson{
       chapters{
-        post {
+        post{
           id
           childMarkdownRemark{
             fields{

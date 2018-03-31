@@ -3,6 +3,24 @@
   "chapters": [
     {
       "post": "./hello_world.md"
+    },
+    {
+      "post": "./values.md"
+    },
+    {
+      "post": "./variables.md"
+    },
+    {
+      "post": "./for.md"
+    },
+    {
+      "post": "./while.md"
+    },
+    {
+      "post": "./if_else.md"
+    },
+    {
+      "post": "./ternary.md"
     }
   ]
 }

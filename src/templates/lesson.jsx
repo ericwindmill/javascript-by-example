@@ -53,14 +53,8 @@ export const pageQuery = graphql`
   query LessonQuery($slug: String!) {
     postBySlug: markdownRemark(fields: { slug: { eq: $slug } }) {
       html
-      timeToRead
-      excerpt
       frontmatter {
         title
-        cover
-        date
-        category
-        tags
       }
     }
   }

@@ -4,7 +4,6 @@ import Link from 'gatsby-link'
 class PostListing extends React.Component {
 
   getPostList() {
-    console.log(this.props.postEdges);
     const postList = []
     this.props.postEdges.forEach(postEdge => {
       postList.push({
