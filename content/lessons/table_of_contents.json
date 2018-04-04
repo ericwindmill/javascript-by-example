@@ -21,6 +21,12 @@
     },
     {
       "post": "./ternary.md"
+    },
+    {
+      "post": "./switch.md"
+    },
+    {
+      "post": "./exceptions.md"
     }
   ]
 }
