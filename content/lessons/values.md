@@ -6,27 +6,27 @@ JavaScript has 4 basic value types: Strings, Numbers, booleans, and 'valueless' 
 
 ```javascript
 // Strings
-var a = 'Hello';
-var b = "World";
-console.log(a);
-console.log(b);
+var a = 'Hello'
+var b = "World"
+console.log(a)
+console.log(b)
 // You can concatenate them with + operator.
-console.log(a + " " + b);
+console.log(a + " " + b)
 
 // Numbers
-console.log(1 + 3);
-console.log(2 + 2.2);
+console.log(1 + 3)
+console.log(2 + 2.2)
 
 // Booleans
-console.log(true && false);
-console.log(!true);
-console.log(3 > 2);
+console.log(true && false)
+console.log(!true)
+console.log(3 > 2)
 
 // Empty Values
 // null and undefined
 // mostly interchangable in JS
-console.log(null);
-console.log(undefined);
+console.log(null)
+console.log(undefined)
 ```
 
 

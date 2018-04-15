@@ -8,26 +8,26 @@ JavaScript offers three different types of 'for' loops as of ES6:
 // Standard for loop
 // Do this thing 10 times
 for (var i = 0; i < 10; i++) {
-  console.log(i);
+  console.log(i)
 }
 
 // for/in loop
 // Used to loop through objects
-const friends = {'name': 'Matt', 'name':'Cody', 'name':'Anthony'};
+const friends = {'name': 'Matt', 'name':'Cody', 'name':'Anthony'}
 for (friendName in friends) {
-  console.log(friendName);
+  console.log(friendName)
 }
 
 // ES6 for/of
 // Used to loop over any data structure with length
 const faces = "🤠🙃😎";
 for (face of faces) {
-  console.log(faces);
+  console.log(faces)
 }
 
 const bowies = ["👩‍🎤", "👨‍🎤"];
 for (bowie of bowies) {
-  console.log(bowie);
+  console.log(bowie)
 }
 ```
 

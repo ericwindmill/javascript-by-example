@@ -11,7 +11,8 @@ const arr1 = new Array(3)
 arr1[0] = 'banana'
 arr1[1] = 'apple'
 arr1[2] = 'grapes'
-console.log('arr1:', arr1)
+console.log('arr1:', arr1) 
+// => arr1: [ 'banana', 'apple', 'grapes' ]
 
 // An array literal
 const arr2 = []
@@ -19,10 +20,12 @@ const arr2 = []
 arr2.push(1)
 arr2.push(2)
 console.log('arr2:', arr2)
+// => arr2: [ 1, 2 ]
 
 // you can add to high indexes, though probably don't want to.
 arr2[12] = 3
 console.log('arr2 again:', arr2)
+// => arr2 again: [ 1, 2, <10 empty items>, 3 ]
 ```
 
 ```

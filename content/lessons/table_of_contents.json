@@ -33,6 +33,57 @@
     },
     {
       "post": "./object.md"
+    },
+    {
+      "post": "./set.md"
+    },
+    {
+      "post": "./functions.md"
+    },
+    {
+      "post": "./parameters.md"
+    },
+    {
+      "post": "./iife.md"
+    },
+    {
+      "post": "./scope.md"
+    },
+    {
+      "post": "./window.md"
+    },
+    {
+      "post": "./closures.md"
+    },
+    {
+      "post": "./context.md"
+    },
+    {
+      "post": "./bind.md"
+    },
+    {
+      "post": "./prototypes.md"
+    },
+    {
+      "post": "./classes.md"
+    },
+    {
+      "post": "./callbacks.md"
+    },
+    {
+      "post": "./promises.md"
+    },
+    {
+      "post": "./async_await.md"
+    },
+    {
+      "post": "./fetch.md"
+    },
+    {
+      "post": "./dom_query.md"
+    },
+    {
+      "post": "./dom_events.md"
     }
   ]
 }

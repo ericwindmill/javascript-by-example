@@ -1,5 +1,5 @@
 ---
-title: 'Exceptions'
+title: "Exceptions"
 ---
 
 Handling exceptions in JavaScript comes down to three keywords: `try`, `catch`, and `finally`.

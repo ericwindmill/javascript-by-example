@@ -6,18 +6,18 @@ JavaScript isn't typed. There are only three options for declaring variables, an
 
 ```javascript
 // variables are declared with 'var', 'let' and 'const
-var a = 'a';
-console.log(a);
+var a = 'a'
+console.log(a)
 
 // change vars without a declaration
-a = 'aa';
-console.log(a);
+a = 'aa'
+console.log(a)
 
 // let and const were added in ES6, and should be used over var
-const b = 'b';
-let c = 'c';
-console.log(b);
-console.log(c);
+const b = 'b'
+let c = 'c'
+console.log(b)
+console.log(c)
 
 // 'const' means constant, and cannot be changed
 // This would throw an error:
@@ -25,15 +25,14 @@ console.log(c);
 // TypeError: Assignment to constant variable.
 
 // use let when you know you'll change a variable
-c = 'cc';
-console.log(c);
+c = 'cc'
+console.log(c)
 
 // slight shortcut for multiple vars
-let d = 'd', e = 'e';
-console.log(d);
-console.log(e);
+let d = 'd', e = 'e'
+console.log(d)
+console.log(e)
 ```
-
 
 ```
 $ node hello-world.js

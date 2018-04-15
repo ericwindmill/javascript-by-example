@@ -38,6 +38,7 @@ export default class LessonTemplate extends React.Component {
 
 const BodyContainer = styled.div`
   width: 700px;
+  padding-bottom: 100px;
   margin: 0 auto;
   a {
    color: gray

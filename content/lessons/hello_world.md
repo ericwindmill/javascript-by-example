@@ -4,7 +4,7 @@ title: 'Hello World!'
 
 ```javascript
 // print to the console with console.log
-console.log('Hello, world!');
+console.log('Hello, world!')
 ```
 
 ```

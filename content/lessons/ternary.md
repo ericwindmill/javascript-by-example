@@ -3,11 +3,11 @@ title: 'Ternary'
 ---
 In JavaScript you can use a ternary statment in place of an 'If/Else'.
 
-```
-console.log(7 % 2 === 0 ? '7 is odd' : '7 is even');
+```javascript
+console.log(7 % 2 === 0 ? '7 is odd' : '7 is even')
 
 const isBlue = true;
-console.log(isBlue ? 'Ive never seen a blue duck before.' : 'Standard duck');
+console.log(isBlue ? 'Ive never seen a blue duck before.' : 'Standard duck')
 ```
 
 ```
