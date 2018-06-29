@@ -1,6 +1,6 @@
 # [JavaScript By Example](https://javascriptbyexample.com)
 
-JavaScript is terrible but we're but we gotta know it so  ¯\_(ツ)_/¯
+JavaScript is terrible but we gotta know it so   ¯\_(ツ)_/¯
 
 Inspired by:
 * [Go By Example](https://gobyexample.com)
