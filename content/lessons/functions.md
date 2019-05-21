@@ -26,7 +26,7 @@ yell('theres always money in the banana stand')
 
 
 // ES6 arrow function expressions
-// Single line arrow functions explicitly return
+// Single line arrow functions implicitly return
 const whisper = (string) => string.toLowerCase() + '.'
 console.log(whisper('THERES ALWAYS MONEY IN THE BANANA STAND'))
 // => theres always money in the banana stand.

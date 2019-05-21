@@ -12,10 +12,10 @@ for (var i = 0; i < 10; i++) {
 }
 
 // for/in loop
-// Used to loop through objects
-const friends = {'name': 'Matt', 'name':'Cody', 'name':'Anthony'}
-for (friendName in friends) {
-  console.log(friendName)
+// Used to loop through object properties
+const friend = { name: 'Cody', age: 28, location: 'Louisville, KY' }
+for (field in friend) {
+  console.log(field + " : " + friend[field])
 }
 
 // ES6 for/of
@@ -43,9 +43,9 @@ $ node jsbyexample.js
 7
 8
 9
-Cody
-28
-Louisville, KY
+name : Cody
+age : 28
+location : Louisville, KY
 🤠🙃😎
 🤠🙃😎
 🤠🙃😎

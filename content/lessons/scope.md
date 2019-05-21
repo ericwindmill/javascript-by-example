@@ -4,7 +4,7 @@ title: "Scope"
 
 Scope refers to the variables that are available to function. Where and how variables are established effects scope.
 
-In JavaScript, a functions local scope includes: 
+In JavaScript, a function's local scope includes: 
 1. The functions parameters.
 2. Any variables established inside the function block.
 3. Any variables that were already available when the function was defined.
@@ -42,7 +42,7 @@ function fruitLogger () {
 
   }
   // console.log(es6Fruit)
-  // => error! fruit is not definied
+  // => error! es6Fruit is not definied
 
   console.log(oldSchoolJsFruit)
   // => pear

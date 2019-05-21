@@ -2,7 +2,7 @@
 title: "Prototypes and Inheritance"
 ---
 
-Rather than classes, JavaScript has prototypes. It uses a system called `protypal inheritance`. Remember, everything in JavaScript is an `object`, *not* a class.
+Rather than classes, JavaScript has prototypes. It uses a system called `prototypal inheritance`. Remember, everything in JavaScript is an `object`, *not* a class.
 
 Inheritance is achieved by pointing an object's `__proto__` property to another object. The best way to do that is with the `Object.create()`
 
