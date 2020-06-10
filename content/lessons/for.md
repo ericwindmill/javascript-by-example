@@ -22,7 +22,7 @@ for (friendName in friends) {
 // Used to loop over any data structure with length
 const faces = "🤠🙃😎";
 for (face of faces) {
-  console.log(faces)
+  console.log(face)
 }
 
 const bowies = ["👩‍🎤", "👨‍🎤"];
@@ -43,12 +43,10 @@ $ node jsbyexample.js
 7
 8
 9
-Cody
-28
-Louisville, KY
-🤠🙃😎
-🤠🙃😎
-🤠🙃😎
+name
+🤠
+🙃
+😎
 👩‍🎤
 👨‍🎤
 ```
