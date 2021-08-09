@@ -14,7 +14,7 @@ bananaStand.add('$2')
 bananaStand.add('$3')
 console.log(bananaStand) // => Set { '$1', '$2', '$3' }
 
-// You can't a value that already exists in this set
+// You can't add or duplicate a value that already exists in this set
 // It won't throw an error, the value simply will still
 // only exist once
 bananaStand.add('$1')
