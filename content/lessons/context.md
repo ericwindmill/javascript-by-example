@@ -46,6 +46,6 @@ const noraTheCat = {
 // stand alone function, which sets 'this'
 // to the global scope. whatsMyName doesn't
 // exist on the window
-doTwice(noraTheCat.whatsMyName())
+doTwice(noraTheCat.whatsMyName)
 // Error! func is not defined
 ```
